@@ -32,14 +32,12 @@ fun List<Char>.play(p1: Int, p2: Int, pairs: List<Char>): List<Char> {
 
 
 fun allHiddenPairs(pairs: List<Char>): List<Char> {
-    //val places =
     return pairs.map { '_' }
 }
 
 fun readPosition(question: String): Int {
     print("Indique a $question posição a virar ? ")
-    val position = readln().toInt()
-    return position
+    return readln().toInt()
 }
 
 fun isValidPositions(first: Int, second: Int, places: List<Char>): Boolean {
@@ -60,5 +58,3 @@ fun List<Char>.turnPlaces(p1: Int, p2: Int, pairs: List<Char>): List<Char> {
     }
     return places
 }
-
-

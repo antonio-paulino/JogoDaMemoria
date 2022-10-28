@@ -1,7 +1,7 @@
 val SYMBOLS = "#%XO&" // Podem ser colocados mais ou menos símbolos.
 fun main() {
     val pairs = (SYMBOLS + SYMBOLS).toList().shuffled()
-    println(pairs)
+    //println(pairs)
     println("Foram gerados ${SYMBOLS.length} pares aleatórios de símbolos.")
     println("Vamos jogar!")
     var places: List<Char> = allHiddenPairs(pairs)
@@ -52,7 +52,7 @@ fun isAllPairsShowed(places: List<Char>): Boolean {
 }
 
 fun List<Char>.turnPlaces(p1: Int, p2: Int, pairs: List<Char>): List<Char> {
-    val places= this.mapIndexed { id, elem ->
+    val places: List<Char> = this.mapIndexed { id, elem ->
         if (id == p1 || id == p2)
             pairs[id]
         else

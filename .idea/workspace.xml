@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d517b5c5-5372-464d-adc2-8844cc94f00f" name="Changes" comment="Small updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,6 +37,11 @@
     "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\anton\Desktop\ISEL\1-semestre\PG\PG-Semestre-de-Inverno\IntelliJ\JogoDaMemoria\src\main\kotlin" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -76,7 +80,7 @@
       <workItem from="1666698546695" duration="4599000" />
       <workItem from="1666854667221" duration="1237000" />
       <workItem from="1666857868735" duration="229000" />
-      <workItem from="1666973952878" duration="748000" />
+      <workItem from="1666973952878" duration="1429000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666285291709</created>
@@ -113,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666856695422</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Small updates">
+      <created>1666974885801</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666974885801</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

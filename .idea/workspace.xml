@@ -29,14 +29,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/anton/Desktop/ISEL/1-semestre/PG/PG-Semestre-de-Inverno/Aulas&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/anton/Desktop/ISEL/1-semestre/PG/PG-Semestre-de-Inverno/Aulas",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
@@ -73,7 +74,9 @@
       <workItem from="1666617327820" duration="2646000" />
       <workItem from="1666622647564" duration="6000" />
       <workItem from="1666698546695" duration="4599000" />
-      <workItem from="1666854667221" duration="993000" />
+      <workItem from="1666854667221" duration="1237000" />
+      <workItem from="1666857868735" duration="229000" />
+      <workItem from="1666973952878" duration="748000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1666285291709</created>
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666854759006</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Small updates">
+      <created>1666856695422</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666856695422</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

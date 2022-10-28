@@ -46,8 +46,10 @@ fun isValidPositions(first: Int, second: Int, places: List<Char>): Boolean {
     return p1 != p2 && p1 in places.indices && p2 in places.indices && places[p1] == '_' && places[p2] == '_'
 }
 //fun isValidPositions(p1: Int, p2: Int, places: List<Char>) = p1 != p2 && p1 in places.indices && p2 in places.indices && places[p1] == '_' && places[p2] == '_'
-fun isAllPairsShowed(places: List<Char>)= !(places.contains('_'))
-
+fun isAllPairsShowed(places: List<Char>): Boolean {
+    val listnew: List<Char> = places.filter { it == '_' }
+    return !(listnew.size > 0)
+}
 
 fun List<Char>.turnPlaces(p1: Int, p2: Int, pairs: List<Char>): List<Char> {
     val places= this.mapIndexed { id, elem ->

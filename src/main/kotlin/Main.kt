@@ -30,7 +30,6 @@ fun List<Char>.play(p1: Int, p2: Int, pairs: List<Char>): List<Char> {
     return turned
 }
 
-
 fun allHiddenPairs(pairs: List<Char>): List<Char> {
     return pairs.map { '_' }
 }
